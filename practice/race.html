@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Race Registration</title>
+  </head>
+  <body>
+    <h1><b>Race Registration!</b></h1>
+    <form action="">
+      <label for="first-name">First Name:</label>
+      <input
+        id="first-name"
+        type="text"
+        required
+        placeholder="enter first name.."
+        name="fname"
+      />
+      <label for="last-name">Last Name:</label>
+      <input
+        id="last-name"
+        type="text"
+        required
+        placeholder="enter last name"
+        name="lname"
+      />
+      <br />
+      <p>Select a Race:</p>
+      <input
+        type="radio"
+        id="Fun-Run-5k"
+        name="race"
+        checked
+        value="Fun Run 5k"
+      />
+      <label for="Fun-Run-5k">Fun Run 5k</label>
+      <br />
+      <input
+        type="radio"
+        id="Half-Marathon"
+        name="race"
+        checked
+        value="Half Marathon"
+      />
+      <label for="Half-Marathon">Half Marathon</label>
+      <br />
+      <input
+        type="radio"
+        id="Full-Marathon"
+        name="race"
+        checked
+        value="Full Marathon"
+      />
+      <label for="Full-Marathon">Full Marathon</label>
+      <br /><br />
+      <label for="email">Email</label>
+      <input
+        id="email"
+        type="email"
+        required
+        placeholder="enter email"
+        name="email"
+      />
+      <label for="password">Password</label>
+      <input
+        id="password"
+        type="password"
+        required
+        placeholder="enter password"
+        name="password"
+      />
+      <br />
+      <label for="division">Select Age Group</label>
+      <select id="division" name="division">
+        <option value="kids">under 18</option>
+        <option value="adults">18-30</option>
+        <option value="senior">over 30</option>
+      </select>
+      <br />
+      <button type="submit">Register!</button>
+    </form>
+  </body>
+</html>

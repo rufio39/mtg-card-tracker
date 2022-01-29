@@ -1,0 +1,78 @@
+<!-- examples of using forms and tables -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>heaviest birds table</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>average Weight [kg (lb)]</th>
+          <th>Max Weight</th>
+          <th>Flighted</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ostrich</td>
+          <td>230<sub>lbs</sub></td>
+          <td>104</td>
+          <td>no</td>
+        </tr>
+        <tr>
+          <td>somali ostrich</td>
+          <td>280 lbs</td>
+          <td>130</td>
+          <td>no</td>
+        </tr>
+        <tr>
+          <td>wild turkey</td>
+          <td>13 lbs</td>
+          <td>30 lbs</td>
+          <td>yes</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>v2 tables</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th colspan="2">average mass</th>
+          <th rowspan="2">Flighted</th>
+        </tr>
+        <tr>
+            <th>kg</th>
+            <th>lbs</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ostrich</td>
+          <td>230</td>
+          <td>180</td>
+          <td>no</td>
+        </tr>
+        <tr>
+          <td>somali ostrich</td>
+          <td>280</td>
+          <td>200</td>
+          <td>no</td>
+        </tr>
+        <tr>
+          <td>wild turkey</td>
+          <td>13</td>
+          <td>30</td>
+          <td>yes</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
