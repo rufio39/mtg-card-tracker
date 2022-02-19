@@ -1,17 +1,16 @@
 h1 {
     color: darkolivegreen;
     text-align: center;
+    letter-spacing: 50px;
+    font-size: 80px;
+    text-decoration: dashed underline black;
 }
-h2 {
+h2,h3 {
     color: darkolivegreen;
     text-align: center;
     
 }
-h3 {
-    color: darkolivegreen;
-    text-align: center;
-   
-}
+
 button {
     background-color: turquoise;
     color: black;
@@ -23,8 +22,10 @@ p {
 }
 
 body {
-    background-color:lightgrey;
+    background-color:lightgray;
     text-align: center;
+    font-family:'Goudy Bookletter 1911', serif;
+    
 }
 
 ul {
