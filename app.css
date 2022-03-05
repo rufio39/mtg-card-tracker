@@ -11,8 +11,12 @@ h2,h3 {
     
 }
 
-button {
-    background-color: turquoise;
+#submit {
+    background-color: green;
+    color: black;
+}
+#reset {
+    background-color: red;
     color: black;
 }
 
@@ -32,4 +36,20 @@ ul {
    text-align: center;
    margin: 0 auto;
    list-style-position: inside;
+}
+
+div a {
+    text-decoration:double underline;
+    color: blue;
+}
+textarea {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 50px;
+    overflow: hidden;
 }

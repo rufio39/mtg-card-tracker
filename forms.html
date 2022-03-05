@@ -69,13 +69,12 @@
       </p>
       <p>
         <label for="description">Description</label>
-        <input
+        <textarea
           id="description"
-          type="text"
+          name="description"
           placeholder="enter description"
-          name="desc"
           required
-        />
+        ></textarea>
       </p>
       <p>
         <label for="power">Enter power</label>
@@ -100,8 +99,8 @@
         <input id="quote" type="text" placeholder="enter qoute" name="quote" />
       </p>
       <p>
-        <button type="submit">Submit</button>
-        <button type="reset">RESET</button>
+        <button id="submit" type="submit">Submit</button>
+        <button id="reset" type="reset">RESET</button>
       </p>
     </form>
     <hr />
