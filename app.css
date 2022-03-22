@@ -1,55 +1,59 @@
 h1 {
-    color: darkolivegreen;
-    text-align: center;
-    letter-spacing: 50px;
-    font-size: 80px;
-    text-decoration: dashed underline black;
+  color: darkolivegreen;
+  text-align: center;
+  letter-spacing: 50px;
+  font-size: 80px;
+  text-decoration: dashed underline black;
 }
-h2,h3 {
-    color: darkolivegreen;
-    text-align: center;
-    
-}
-
-#submit {
-    background-color: green;
-    color: black;
-}
-#reset {
-    background-color: red;
-    color: black;
+h2,
+h3 {
+  color: darkolivegreen;
+  text-align: center;
 }
 
 p {
-    color: black;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 
 body {
-    background-color:lightgray;
-    text-align: center;
-    font-family:'Goudy Bookletter 1911', serif;
-    
+  background-color: lightgray;
+  text-align: center;
+  font-family: "Goudy Bookletter 1911", serif;
 }
 
 ul {
-   text-align: center;
-   margin: 0 auto;
-   list-style-position: inside;
+  text-align: center;
+  margin: 0 auto;
+  list-style-position: inside;
 }
 
 div a {
-    text-decoration:double underline;
-    color: blue;
+  text-decoration: double underline;
+  color: blue;
 }
 textarea {
-    width: 20%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    height: 50px;
-    overflow: hidden;
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 50px;
+  overflow: hidden;
+}
+input:hover {
+  background-color: rgb(142, 185, 201);
+}
+
+#submit:hover {
+  background-color: forestgreen;
+  color: black;
+  border: 3px solid black;
+}
+#reset:hover {
+  background-color: red;
+  color: black;
+  border: 3px solid black;
 }
