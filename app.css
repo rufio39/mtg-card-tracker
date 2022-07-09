@@ -44,21 +44,25 @@ textarea {
 }
 textarea:hover {
   background-color: rgb(142, 185, 201);
+  transition: 1s;
 }
 
 input:hover {
   background-color: rgb(142, 185, 201);
+  transition: 1s;
 }
 
 #submit:hover {
   background-color: forestgreen;
   color: black;
   border: 3px solid black;
+  transition: 1s;
 }
 #reset:hover {
   background-color: red;
   color: black;
   border: 3px solid black;
+  transition: 1s;
 }
 
 form {
@@ -74,4 +78,35 @@ button {
   padding: 5px 5px;
   border-radius: 10px;
   font-size: 1em;
+}
+.home {
+  margin-bottom: 10px;
+  background-color: forestgreen;
+}
+.home:hover {
+  background-color: rgb(142, 185, 201);
+  transition: 1s;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #151b29;
+}
+.scards {
+  background: none;
+  color: #ffa260;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: all 0.25s;
+}
+.scards:hover {
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
 }
